@@ -1,11 +1,11 @@
 var starXPos = [];
 var starYPos = [];
-var star = "⭐️";
-var starTotal = 100;
+var star = "📷";
+var starTotal = 90;
 
 var planetXPos = [];
 var planetYPos = [];
-var planet = "🪐";
+var planet = "📸";
 var planetTotal = 3;
 var planetFound = 0;
 
