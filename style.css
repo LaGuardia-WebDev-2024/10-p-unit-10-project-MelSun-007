@@ -1,6 +1,6 @@
 body {
-  background-image: url("Sprinkles.jpg");
-  background-color: hsl(212, 33%, 83%);
+  background-image: url("https://img.freepik.com/premium-photo/dark-gloomy-street-with-tree-middle_564714-57472.jpg?semt=ais_hybrid&w=740&q=80");
+  background-color: hsl(211, 9%, 51%);
   background-blend-mode: overlay;
   text-align: center;
   background-size: cover;
@@ -23,8 +23,9 @@ html{
 }
 
 #myCanvas2 {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(131, 98, 98);
   border-radius: 30px;
+  background-image: url("https://images.wondershare.com/edrawmax/maker2023/crime-scene-investigation/crime-scene-3.jpg");
 }
 
 
