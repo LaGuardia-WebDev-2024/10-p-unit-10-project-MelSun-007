@@ -1,7 +1,7 @@
 var starXPos = [];
 var starYPos = [];
 var star = "📸";
-var starTotal = 90;
+var starTotal = 70;
 
 var planetXPos = [];
 var planetYPos = [];
@@ -24,7 +24,14 @@ draw = function(){
    }
 
   display();
+
+
+While(mouseClicked)
+{random text"🎇"};
 }
+
+
+
 
 
 mouseClicked = function(){
