@@ -26,9 +26,20 @@ draw = function(){
   display();
 
 
-While(mouseClicked)
-{random text"🎇"};
+
+for(var x=0; x <500; x+= 30){text("🔎", 0,x);}
+
+if(mousePressed){var x=0;
+while(x<600){
+text("🎇",x,random(0,400));
+x+=30}
+
+  starXPos
 }
+
+}
+
+
 
 
 
