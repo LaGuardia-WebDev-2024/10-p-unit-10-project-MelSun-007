@@ -2,12 +2,16 @@ var starXPos = [];
 var starYPos = [];
 var star = "📸";
 var starTotal = 70;
+//detective camera
+
 
 var planetXPos = [];
 var planetYPos = [];
 var planet = "🔪";
 var planetTotal = 3;
 var planetFound = 0;
+// knife
+
 
 setup = function() {
    size(600, 450); 
@@ -24,7 +28,11 @@ draw = function(){
    }
 
   display();
-
+fill(0,0,0)
+var Crime=["caution","inspection","restricted"];
+text(Crime[0],40,40);
+text(Crime[1],40,80);
+text(Crime[2],40,120);
 
 
 for(var x=0; x <500; x+= 30){text("🔎", 0,x);}
@@ -33,7 +41,7 @@ if(mousePressed){var x=0;
 while(x<600){
 text("🎇",x,random(0,400));
 x+=30}
-
+// Mosquito 
   starXPos
 }
 
